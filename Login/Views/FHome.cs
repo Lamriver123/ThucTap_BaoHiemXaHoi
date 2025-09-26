@@ -143,7 +143,12 @@ namespace Login
         {
             if (EnsureLoggedIn())
             {
-                MessageBox.Show("Tra cứu");
+                // Lấy form cha (FMain)
+                FMain mainForm = this.ParentForm as FMain;
+                if (mainForm != null)
+                {
+                    mainForm.childForm(new FTraCuu());
+                }
 
             }
             else

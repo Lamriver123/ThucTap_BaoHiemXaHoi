@@ -89,23 +89,11 @@ namespace Login
             {
                 var user = await _authService.LoginAsync(username, password, code, text, loaiDoiTuong);
 
-                if (user != null)
-                {
-                    MessageBox.Show("Đăng nhập thành công");
-                    AppState.IsLoggedIn = true;
-                    AppState.AccessToken = user.AccessToken.ToString();
-                    AppState.UserName = user.UserName.ToString();
-                    AppState.FullName = user.HoTen.ToString();
-                    this.DialogResult = DialogResult.OK;
-                    btnDangNhap.Enabled = true;
-                    this.Close();
-
-                }
-                else
-                {
-                    btnDangNhap.Enabled = true;
-                    MessageBox.Show("Không lấy được thông tin người dùng.");
-                }
+                MessageBox.Show("Đăng nhập thành công");
+                
+                this.DialogResult = DialogResult.OK;
+                btnDangNhap.Enabled = true;
+                this.Close();
             }
             catch (Exception ex)
             {

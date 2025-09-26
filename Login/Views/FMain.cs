@@ -19,15 +19,9 @@ namespace Login.Views
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-            using (FLogin fLogin = new FLogin())
-            {
-                if (fLogin.ShowDialog() == DialogResult.OK)
-                {
-                    pDangNhap.Hide();
-                    pDaDangNhap.Show();
-                    btnDangXuat.Text = AppState.FullName;
-                }
-            }
+            FLogin fLogin = new FLogin();
+            fLogin.ShowDialog();
+            UpdateLoginUI();
         }
 
         private void btnDangXuat_SelectedIndexChanged(object sender, EventArgs e)
@@ -35,10 +29,7 @@ namespace Login.Views
             if (btnDangXuat.SelectedItem != null && btnDangXuat.SelectedItem.ToString() == "Đăng xuất")
             {
                 // Reset trạng thái đăng nhập
-                AppState.IsLoggedIn = false;
-                AppState.AccessToken = null;
-                AppState.UserName = null;
-                AppState.FullName = null;
+                AppState.Reset();
 
                 // Ẩn phần đã đăng nhập, hiện phần đăng nhập
                 pDaDangNhap.Hide();
@@ -48,18 +39,20 @@ namespace Login.Views
 
                 // Reset lại combobox (tránh để chữ 'Đăng xuất' hiển thị)
                 btnDangXuat.SelectedIndex = -1;
+                childForm(new FHome());
             }
         }
 
         private void FMain_Load(object sender, EventArgs e)
         {
             UpdateLoginUI();
-            LoadForm(new FHome());
+            childForm(new FHome());
         }
 
-        private void LoadForm(Form frm)
+        
+
+        public void childForm(Form frm)
         {
-            // Xóa form cũ trong pBody
             pBody.Controls.Clear();
             frm.TopLevel = false;
             frm.FormBorderStyle = FormBorderStyle.None;
@@ -74,7 +67,7 @@ namespace Login.Views
             {
                 pDangNhap.Hide();
                 pDaDangNhap.Show();
-                btnDangXuat.Text = AppState.FullName;           
+                btnDangXuat.Text = AppState.UserName + "-" + AppState.Ten;
             }
             else
             {
@@ -84,5 +77,9 @@ namespace Login.Views
             }
         }
 
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            childForm(new FHome());
+        }
     }
 }

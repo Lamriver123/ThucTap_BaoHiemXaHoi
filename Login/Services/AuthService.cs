@@ -1,4 +1,5 @@
 ﻿using Login.Models;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -23,7 +24,7 @@ namespace Login.Services
             };
         }
 
-        public async Task<UserModel?> LoginAsync(
+        public async Task<bool> LoginAsync(
             string username,
             string password,
             string code,
@@ -49,45 +50,35 @@ namespace Login.Services
             {
                 var obj = JObject.Parse(result);
 
-                var user = new UserModel
-                {
-                    AccessToken = (string)obj["access_token"],
-                    UserName = (string)obj["userName"]
-                };
+                AppState.IsLoggedIn = true;
+                AppState.loaiDoiTuong = loaiDoiTuong;
+                AppState.AccessToken = obj["access_token"]?.ToString();
+                AppState.ClientId = obj["as:client_id"]?.ToString();
+                AppState.UserName = obj["userName"]?.ToString();
+                AppState.DsDonViRaw = obj["dsDonVi"]?.ToString();
 
-                // parse tstUser
-                var tstUser = obj["tstUser"];
-                if (tstUser != null)
+                var ds = JArray.Parse(AppState.DsDonViRaw);
+                var donVi = ds[0];
+                AppState.Ten = donVi["Ten"]?.ToString();
+
+                AppState.IsPublic = obj["as:is_public"]?.ToString() == "1";
+                AppState.IsAdmin = obj["as:is_admin"]?.ToString() == "1";
+                AppState.VnConnect = obj["vnconnect"]?.ToString();
+                AppState.Status = obj["status"]?.ToObject<int>() ?? 0;
+                AppState.Expires = obj[".expires"]?.ToObject<int>() ?? 0;
+
+                // Parse tstUser
+                var tstUserJson = obj["tstUser"]?.ToString();
+                if (!string.IsNullOrEmpty(tstUserJson))
                 {
-                    user.HoTen = (string)tstUser["hoTen"];
-                    user.GioiTinh = (string)tstUser["gioiTinh"];
-                    user.NgaySinh = (string)tstUser["ngaySinh"];
-                    user.MaCqbh = (string)tstUser["maCqbh"];
-                    user.TenCqbh = (string)tstUser["tenCqbh"];
-                    user.TinhLh = (string)tstUser["tinhLh"];
-                    user.HuyenLh = (string)tstUser["huyenLh"];
-                    user.XaLh = (string)tstUser["xaLh"];
-                    user.TinhHk = (string)tstUser["tinhHk"];
-                    user.HuyenHk = (string)tstUser["huyenHk"];
-                    user.XaHk = (string)tstUser["xaHk"];
-                    user.TinhKs = (string)tstUser["tinhKs"];
-                    user.HuyenKs = (string)tstUser["huyenKs"];
-                    user.XaKs = (string)tstUser["xaKs"];
-                    user.DcLh = (string)tstUser["dcLh"];
-                    user.DcHk = (string)tstUser["dcHk"];
-                    user.NamSinh = (string)tstUser["namSinh"];
-                    user.ThangSinh = (string)tstUser["thangSinh"];
-                    user.SoDienThoai = (string)tstUser["sodienthoai"];
-                    user.SoCmnd = (string)tstUser["soCmnd"];
-                    user.MucDong = (int?)tstUser["mucDong"] ?? 0;
-                    user.PtDong = (string)tstUser["ptDong"];
-                    user.NguoiGiamHo = (string)tstUser["nguoiGiamHo"];
-                    user.MaBv = (string)tstUser["maBv"];
-                    user.MaTinhBenhVien = (string)tstUser["maTinhBenhVien"];
-                    user.MaDvi = (string)tstUser["maDvi"];
-                    user.TenDvi = (string)tstUser["tenDvi"];
+                    try
+                    {
+                        AppState.TstUser = JsonConvert.DeserializeObject<TstUserInfo>(tstUserJson);
+                    }
+                    catch { }
                 }
-                return user;
+
+                return true;
             }
             else if (response.StatusCode == HttpStatusCode.Unauthorized)
             {
@@ -96,7 +87,7 @@ namespace Login.Services
                 string description = err["error_description"]?.ToString();
                 throw new Exception($"Lỗi: {error}\nMô tả: {description}");
             }
-            return null;
+            return false;
         }
     }
 }

@@ -3,68 +3,96 @@
   "WorkspaceRootPath": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\views\\fhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\views\\fhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\views\\tracuu\\ftracuuc12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\views\\tracuu\\ftracuuc12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\views\\tracuu\\ftracuuc12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\views\\tracuu\\ftracuuc12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\views\\ftracuu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\views\\ftracuu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\views\\ftracuu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\views\\ftracuu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\views\\fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\views\\fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\views\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\views\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\login\\views\\fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\views\\fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\views\\fmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\login\\views\\fhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\views\\fhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\views\\fhome.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\views\\fhome.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\views\\fmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\views\\fmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\services\\callapipublicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\services\\callapipublicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\login\\views\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\views\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\appstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\appstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\views\\fhome.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\views\\fhome.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\login\\views\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\views\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\views\\fhome.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\views\\fhome.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\views\\fhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\views\\fhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\login\\views\\fhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\views\\fhome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\views\\ftracuu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\views\\ftracuu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\services\\callapipublicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\services\\callapipublicservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\services\\captchaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\services\\captchaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\views\\flogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\views\\flogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\models\\tstuserinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\models\\tstuserinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\models\\donviinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\models\\donviinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\views\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\views\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\views\\fhome.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\views\\fhome.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\views\\flogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|solutionrelative:login\\views\\flogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9EB48227-C933-4B54-9473-C9A12CA1CF35}|Login\\Login.csproj|e:\\hk1nam4\\taskthuctap\\baohiemxahoi\\login\\views\\flogin.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
@@ -78,37 +106,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FMain.Designer.cs",
-              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FMain.Designer.cs",
-              "RelativeDocumentMoniker": "Login\\Views\\FMain.Designer.cs",
-              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FMain.Designer.cs",
-              "RelativeToolTip": "Login\\Views\\FMain.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T10:31:36.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FMain.cs",
-              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FMain.cs",
-              "RelativeDocumentMoniker": "Login\\Views\\FMain.cs",
-              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FMain.cs",
-              "RelativeToolTip": "Login\\Views\\FMain.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwBgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T10:28:41.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "FMain.cs [Design]",
               "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FMain.cs",
               "RelativeDocumentMoniker": "Login\\Views\\FMain.cs",
@@ -120,75 +122,118 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "FHome.resx",
-              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FHome.resx",
-              "RelativeDocumentMoniker": "Login\\Views\\FHome.resx",
-              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FHome.resx",
-              "RelativeToolTip": "Login\\Views\\FHome.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-09-25T09:42:43.505Z"
+              "DocumentIndex": 1,
+              "Title": "FTraCuuC12.cs [Design]",
+              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\TraCuu\\FTraCuuC12.cs",
+              "RelativeDocumentMoniker": "Login\\Views\\TraCuu\\FTraCuuC12.cs",
+              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\TraCuu\\FTraCuuC12.cs [Design]",
+              "RelativeToolTip": "Login\\Views\\TraCuu\\FTraCuuC12.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T10:16:27.726Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FHome.Designer.cs",
-              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FHome.Designer.cs",
-              "RelativeDocumentMoniker": "Login\\Views\\FHome.Designer.cs",
-              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FHome.Designer.cs",
-              "RelativeToolTip": "Login\\Views\\FHome.Designer.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAMwFwBAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "FTraCuu.cs [Design]",
+              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FTraCuu.cs",
+              "RelativeDocumentMoniker": "Login\\Views\\FTraCuu.cs",
+              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FTraCuu.cs [Design]",
+              "RelativeToolTip": "Login\\Views\\FTraCuu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:03:00.662Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FHome.cs",
-              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FHome.cs",
-              "RelativeDocumentMoniker": "Login\\Views\\FHome.cs",
-              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FHome.cs",
-              "RelativeToolTip": "Login\\Views\\FHome.cs",
-              "ViewState": "AgIAAJsAAAAAAAAAAAAtwK0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T07:41:38.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-26T10:11:34.972Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FLogin.cs",
-              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FLogin.cs",
-              "RelativeDocumentMoniker": "Login\\Views\\FLogin.cs",
-              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FLogin.cs",
-              "RelativeToolTip": "Login\\Views\\FLogin.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAuwFcAAAAPAAAAAAAAAA==",
+              "Title": "FTraCuu.cs",
+              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FTraCuu.cs",
+              "RelativeDocumentMoniker": "Login\\Views\\FTraCuu.cs",
+              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FTraCuu.cs",
+              "RelativeToolTip": "Login\\Views\\FTraCuu.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAnwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T03:20:39.505Z",
+              "WhenOpened": "2025-09-26T10:31:53.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FTraCuuC12.cs",
+              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\TraCuu\\FTraCuuC12.cs",
+              "RelativeDocumentMoniker": "Login\\Views\\TraCuu\\FTraCuuC12.cs",
+              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\TraCuu\\FTraCuuC12.cs",
+              "RelativeToolTip": "Login\\Views\\TraCuu\\FTraCuuC12.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAswD0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T10:23:33.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppState.cs",
+              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\AppState.cs",
+              "RelativeDocumentMoniker": "Login\\AppState.cs",
+              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\AppState.cs",
+              "RelativeToolTip": "Login\\AppState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T09:34:39.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Login\\Services\\AuthService.cs",
+              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Services\\AuthService.cs",
+              "RelativeToolTip": "Login\\Services\\AuthService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA2wDkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T08:15:40.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FMain.Designer.cs",
+              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FMain.Designer.cs",
+              "RelativeDocumentMoniker": "Login\\Views\\FMain.Designer.cs",
+              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FMain.Designer.cs",
+              "RelativeToolTip": "Login\\Views\\FMain.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T10:31:36.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FHome.cs [Design]",
-              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FHome.cs",
-              "RelativeDocumentMoniker": "Login\\Views\\FHome.cs",
-              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FHome.cs [Design]",
-              "RelativeToolTip": "Login\\Views\\FHome.cs [Design]",
+              "Title": "FMain.cs",
+              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FMain.cs",
+              "RelativeDocumentMoniker": "Login\\Views\\FMain.cs",
+              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FMain.cs",
+              "RelativeToolTip": "Login\\Views\\FMain.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwCkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T06:54:34.197Z"
+              "WhenOpened": "2025-09-25T10:28:41.854Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CaptchaService.cs",
-              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Services\\CaptchaService.cs",
-              "RelativeDocumentMoniker": "Login\\Services\\CaptchaService.cs",
-              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Services\\CaptchaService.cs",
-              "RelativeToolTip": "Login\\Services\\CaptchaService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "FHome.Designer.cs",
+              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FHome.Designer.cs",
+              "RelativeDocumentMoniker": "Login\\Views\\FHome.Designer.cs",
+              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FHome.Designer.cs",
+              "RelativeToolTip": "Login\\Views\\FHome.Designer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwHMBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T08:15:54.341Z"
+              "WhenOpened": "2025-09-25T09:03:00.662Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -199,23 +244,140 @@
               "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FLogin.cs [Design]",
               "RelativeToolTip": "Login\\Views\\FLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T02:48:32.459Z"
+              "WhenOpened": "2025-09-25T02:48:32.459Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "AppState.cs",
-              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\AppState.cs",
-              "RelativeDocumentMoniker": "Login\\AppState.cs",
-              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\AppState.cs",
-              "RelativeToolTip": "Login\\AppState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Title": "FHome.cs",
+              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FHome.cs",
+              "RelativeDocumentMoniker": "Login\\Views\\FHome.cs",
+              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FHome.cs",
+              "RelativeToolTip": "Login\\Views\\FHome.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAEwJUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:34:39.99Z"
+              "WhenOpened": "2025-09-25T07:41:38.945Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
+              "Title": "FHome.cs [Design]",
+              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FHome.cs",
+              "RelativeDocumentMoniker": "Login\\Views\\FHome.cs",
+              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FHome.cs [Design]",
+              "RelativeToolTip": "Login\\Views\\FHome.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T06:54:34.197Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FTraCuu.Designer.cs",
+              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FTraCuu.Designer.cs",
+              "RelativeDocumentMoniker": "Login\\Views\\FTraCuu.Designer.cs",
+              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FTraCuu.Designer.cs",
+              "RelativeToolTip": "Login\\Views\\FTraCuu.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T10:27:49.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CallApiPublicService.cs",
+              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Services\\CallApiPublicService.cs",
+              "RelativeDocumentMoniker": "Login\\Services\\CallApiPublicService.cs",
+              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Services\\CallApiPublicService.cs",
+              "RelativeToolTip": "Login\\Services\\CallApiPublicService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T08:48:57.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CaptchaService.cs",
+              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Services\\CaptchaService.cs",
+              "RelativeDocumentMoniker": "Login\\Services\\CaptchaService.cs",
+              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Services\\CaptchaService.cs",
+              "RelativeToolTip": "Login\\Services\\CaptchaService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T08:15:54.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TstUserInfo.cs",
+              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Models\\TstUserInfo.cs",
+              "RelativeDocumentMoniker": "Login\\Models\\TstUserInfo.cs",
+              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Models\\TstUserInfo.cs",
+              "RelativeToolTip": "Login\\Models\\TstUserInfo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T09:03:18.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Login\\Models\\UserModel.cs",
+              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Models\\UserModel.cs",
+              "RelativeToolTip": "Login\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T08:20:23.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DonViInfo.cs",
+              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Models\\DonViInfo.cs",
+              "RelativeDocumentMoniker": "Login\\Models\\DonViInfo.cs",
+              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Models\\DonViInfo.cs",
+              "RelativeToolTip": "Login\\Models\\DonViInfo.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAA6wDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T09:04:42.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FLogin.cs",
+              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FLogin.cs",
+              "RelativeDocumentMoniker": "Login\\Views\\FLogin.cs",
+              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FLogin.cs",
+              "RelativeToolTip": "Login\\Views\\FLogin.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAmwF4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T03:20:39.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FHome.resx",
+              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FHome.resx",
+              "RelativeDocumentMoniker": "Login\\Views\\FHome.resx",
+              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FHome.resx",
+              "RelativeToolTip": "Login\\Views\\FHome.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-09-25T09:42:43.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Program.cs",
               "RelativeDocumentMoniker": "Login\\Program.cs",
@@ -227,43 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CallApiPublicService.cs",
-              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Services\\CallApiPublicService.cs",
-              "RelativeDocumentMoniker": "Login\\Services\\CallApiPublicService.cs",
-              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Services\\CallApiPublicService.cs",
-              "RelativeToolTip": "Login\\Services\\CallApiPublicService.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAuwCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T08:48:57.994Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserModel.cs",
-              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Models\\UserModel.cs",
-              "RelativeDocumentMoniker": "Login\\Models\\UserModel.cs",
-              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Models\\UserModel.cs",
-              "RelativeToolTip": "Login\\Models\\UserModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T08:20:23.041Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Login\\Services\\AuthService.cs",
-              "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Services\\AuthService.cs",
-              "RelativeToolTip": "Login\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAswGAAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T08:15:40.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "FLogin.Designer.cs",
               "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FLogin.Designer.cs",
               "RelativeDocumentMoniker": "Login\\Views\\FLogin.Designer.cs",
@@ -271,18 +397,20 @@
               "RelativeToolTip": "Login\\Views\\FLogin.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T03:45:20.854Z"
+              "WhenOpened": "2025-09-25T03:45:20.854Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "FLogin.resx",
               "DocumentMoniker": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FLogin.resx",
               "RelativeDocumentMoniker": "Login\\Views\\FLogin.resx",
               "ToolTip": "E:\\HK1Nam4\\TaskThucTap\\BaoHiemXaHoi\\Login\\Views\\FLogin.resx",
               "RelativeToolTip": "Login\\Views\\FLogin.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-09-25T04:00:47.785Z"
+              "WhenOpened": "2025-09-25T04:00:47.785Z",
+              "EditorCaption": ""
             }
           ]
         }

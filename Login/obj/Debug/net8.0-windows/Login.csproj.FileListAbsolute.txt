@@ -24,3 +24,5 @@ E:\HK1Nam4\TaskThucTap\BaoHiemXaHoi\Login\bin\Debug\net8.0-windows\GrapeCity.Dat
 E:\HK1Nam4\TaskThucTap\BaoHiemXaHoi\Login\bin\Debug\net8.0-windows\zh\GrapeCity.DataVisualization.Chart.resources.dll
 E:\HK1Nam4\TaskThucTap\BaoHiemXaHoi\Login\obj\Debug\net8.0-windows\Login.Views.FMain.resources
 E:\HK1Nam4\TaskThucTap\BaoHiemXaHoi\Login\obj\Debug\net8.0-windows\Login.sourcelink.json
+E:\HK1Nam4\TaskThucTap\BaoHiemXaHoi\Login\obj\Debug\net8.0-windows\Login.FTraCuu.resources
+E:\HK1Nam4\TaskThucTap\BaoHiemXaHoi\Login\obj\Debug\net8.0-windows\Login.Views.TraCuu.FTraCuuC12.resources

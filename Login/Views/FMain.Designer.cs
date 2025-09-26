@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             pHeader = new Panel();
+            btnHome = new FontAwesome.Sharp.IconButton();
             pDaDangNhap = new Panel();
             btnDangXuat = new ComboBox();
             pDangNhap = new Panel();
@@ -42,6 +43,7 @@
             // pHeader
             // 
             pHeader.BackColor = SystemColors.ActiveCaption;
+            pHeader.Controls.Add(btnHome);
             pHeader.Controls.Add(pDaDangNhap);
             pHeader.Controls.Add(pDangNhap);
             pHeader.Dock = DockStyle.Top;
@@ -50,13 +52,26 @@
             pHeader.Size = new Size(1914, 65);
             pHeader.TabIndex = 1;
             // 
+            // btnHome
+            // 
+            btnHome.BackColor = SystemColors.ActiveCaption;
+            btnHome.IconChar = FontAwesome.Sharp.IconChar.House;
+            btnHome.IconColor = Color.DarkOliveGreen;
+            btnHome.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            btnHome.Location = new Point(28, 5);
+            btnHome.Name = "btnHome";
+            btnHome.Size = new Size(54, 54);
+            btnHome.TabIndex = 2;
+            btnHome.UseVisualStyleBackColor = false;
+            btnHome.Click += btnHome_Click;
+            // 
             // pDaDangNhap
             // 
             pDaDangNhap.Controls.Add(btnDangXuat);
             pDaDangNhap.Dock = DockStyle.Right;
-            pDaDangNhap.Location = new Point(1574, 0);
+            pDaDangNhap.Location = new Point(1526, 0);
             pDaDangNhap.Name = "pDaDangNhap";
-            pDaDangNhap.Size = new Size(186, 65);
+            pDaDangNhap.Size = new Size(234, 65);
             pDaDangNhap.TabIndex = 1;
             // 
             // btnDangXuat
@@ -64,9 +79,9 @@
             btnDangXuat.BackColor = SystemColors.Window;
             btnDangXuat.FormattingEnabled = true;
             btnDangXuat.Items.AddRange(new object[] { "Đăng xuất" });
-            btnDangXuat.Location = new Point(18, 17);
+            btnDangXuat.Location = new Point(0, 22);
             btnDangXuat.Name = "btnDangXuat";
-            btnDangXuat.Size = new Size(151, 23);
+            btnDangXuat.Size = new Size(220, 23);
             btnDangXuat.TabIndex = 0;
             btnDangXuat.Text = "Nguyễn Hữu Ngọc Lam";
             btnDangXuat.SelectedIndexChanged += btnDangXuat_SelectedIndexChanged;
@@ -130,5 +145,6 @@
         private Panel pDangNhap;
         private FontAwesome.Sharp.IconButton btnDangNhap;
         private Panel pBody;
+        private FontAwesome.Sharp.IconButton btnHome;
     }
 }
