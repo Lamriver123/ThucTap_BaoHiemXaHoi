@@ -64,6 +64,19 @@ namespace Login.Views
                 pDangNhap.Show();
                 pDaDangNhap.Hide();
             }
+            LoadForm(new FHome());
         }
+
+        private void LoadForm(Form frm)
+        {
+            // Xóa form cũ trong pBody
+            pBody.Controls.Clear();
+            frm.TopLevel = false;
+            frm.FormBorderStyle = FormBorderStyle.None;
+            frm.Dock = DockStyle.Fill;
+            pBody.Controls.Add(frm);
+            frm.Show();
+        }
+
     }
 }

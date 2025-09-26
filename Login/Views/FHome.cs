@@ -26,16 +26,6 @@ namespace Login
         {
             try
             {
-                if (AppState.IsLoggedIn)
-                {
-                    pDangNhap.Hide();
-                    pDaDangNhap.Show();
-                }
-                else
-                {
-                    pDangNhap.Show();
-                    pDaDangNhap.Hide();
-                }
 
                 var obj = await _apiService.GetCallApiPublic();
 
@@ -52,19 +42,7 @@ namespace Login
             }
         }
 
-        private void btnDangNhap_Click(object sender, EventArgs e)
-        {
-            using (FLogin fLogin = new FLogin())
-            {
-                if (fLogin.ShowDialog() == DialogResult.OK)
-                {
-
-                    pDangNhap.Hide();
-                    pDaDangNhap.Show();
-                    btnDangXuat.Text = AppState.FullName;
-                }
-            }
-        }
+        
 
 
 
@@ -127,26 +105,7 @@ namespace Login
             pThongKeHoSo.BackgroundImageLayout = ImageLayout.Center;
         }
 
-        private void btnDangXuat_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (btnDangXuat.SelectedItem != null && btnDangXuat.SelectedItem.ToString() == "Đăng xuất")
-            {
-                // Reset trạng thái đăng nhập
-                AppState.IsLoggedIn = false;
-                AppState.AccessToken = null;
-                AppState.UserName = null;
-                AppState.FullName = null;
-
-                // Ẩn phần đã đăng nhập, hiện phần đăng nhập
-                pDaDangNhap.Hide();
-                pDangNhap.Show();
-
-                MessageBox.Show("Bạn đã đăng xuất thành công!", "Thông báo");
-
-                // Reset lại combobox (tránh để chữ 'Đăng xuất' hiển thị)
-                btnDangXuat.SelectedIndex = -1;
-            }
-        }
+        
 
         private void btnDongBH_Click(object sender, EventArgs e)
         {
@@ -155,7 +114,6 @@ namespace Login
             }
             else
             {
-                btnDangNhap_Click(sender, e);
             }
         }
 
@@ -166,7 +124,6 @@ namespace Login
             }
             else
             {
-                btnDangNhap_Click(sender, e);
             }
         }
 
@@ -182,7 +139,6 @@ namespace Login
             }
             else
             {
-                btnDangNhap_Click(sender, e);
             }
         }
 
@@ -193,7 +149,6 @@ namespace Login
             }
             else
             {
-                btnDangNhap_Click(sender, e);
             }
         }
 
@@ -204,7 +159,7 @@ namespace Login
             }
             else
             {
-                btnDangNhap_Click(sender, e);
+                
             }
         }
 
