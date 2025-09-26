@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Login.Services;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,7 +23,7 @@ namespace Login.Views.TraCuu
 
         }
 
-        private void btnTraCuu_Click(object sender, EventArgs e)
+        private async void btnTraCuu_Click(object sender, EventArgs e)
         {
             // Kiểm tra chọn tháng
             if (cbThang.SelectedIndex < 0)
@@ -60,9 +61,42 @@ namespace Login.Views.TraCuu
                 MessageBox.Show("Tháng không hợp lệ!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            // Nếu hợp lệ thì lấy tháng + năm
             int thang = cbThang.SelectedIndex + 1;
-            MessageBox.Show($"Bạn đã chọn: Tháng {thang} - Năm {nam}");
+
+
+            //Thực hiện
+            try
+            {
+                var service = new TraCuuService();
+
+                byte[] pdfData = await service.TraCuuC12Async(thang, nam);
+
+                //// Extract table từ Python service
+                //var dataTableService = new DataTablePdfService();
+                //string jsonResult = await dataTableService.ExtractTableAsync(pdfData);
+
+                //// Hiển thị JSON trả về
+                //MessageBox.Show(jsonResult);
+
+
+                string filePath = Path.Combine(Application.StartupPath, $"C12_{thang}_{nam}_{AppState.Ten}.pdf");
+                File.WriteAllBytes(filePath, pdfData);
+
+                var dataTableService = new DataTablePdfService();
+                var listRaw = await dataTableService.ExtractTableAsync(pdfData);
+                FTraCuu fTraCuu = this.ParentForm as FTraCuu;
+                if (fTraCuu != null)
+                {
+                    fTraCuu.openChildForm(new FShowTraCuuC12(listRaw));
+                }
+
+                FViewPdf fViewPdf = new FViewPdf(filePath);
+                fViewPdf.Show();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi tra cứu: " + ex.Message);
+            }
         }
 
         private void FTraCuuC12_Load(object sender, EventArgs e)

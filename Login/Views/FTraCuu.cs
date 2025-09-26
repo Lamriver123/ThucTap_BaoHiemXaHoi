@@ -36,7 +36,7 @@ namespace Login
             }
 
         }
-        private void openChildForm(Form frm)
+        public void openChildForm(Form frm)
         {
             pBody.Controls.Clear();
             frm.TopLevel = false;
