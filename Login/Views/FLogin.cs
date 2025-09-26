@@ -72,6 +72,7 @@ namespace Login
 
         private async void btnDangNhap_Click(object sender, EventArgs e)
         {
+            
             var username = txtUsername.Text.Trim();
             var password = txtPassword.Text.Trim();
             var text = txtCaptcha.Text.Trim();
@@ -83,39 +84,32 @@ namespace Login
                 MessageBox.Show("Hãy nhập đầy đủ thông tin");
                 return;
             }
-
+            btnDangNhap.Enabled = false;
             try
             {
                 var user = await _authService.LoginAsync(username, password, code, text, loaiDoiTuong);
 
                 if (user != null)
                 {
-                    MessageBox.Show(
-                        $"Đăng nhập thành công!\n\n" +
-                        $"Họ tên: {user.HoTen}\n" +
-                        $"Giới tính: {user.GioiTinh}\n" +
-                        $"Ngày sinh: {user.NgaySinh}\n" +
-                        $"SĐT: {user.SoDienThoai}\n" +
-                        $"Đơn vị: {user.TenDvi}",
-                        "Thông tin tài khoản",
-                        MessageBoxButtons.OK,
-                        MessageBoxIcon.Information
-                    );
+                    MessageBox.Show("Đăng nhập thành công");
                     AppState.IsLoggedIn = true;
                     AppState.AccessToken = user.AccessToken.ToString();
                     AppState.UserName = user.UserName.ToString();
                     AppState.FullName = user.HoTen.ToString();
                     this.DialogResult = DialogResult.OK;
+                    btnDangNhap.Enabled = true;
                     this.Close();
 
                 }
                 else
                 {
+                    btnDangNhap.Enabled = true;
                     MessageBox.Show("Không lấy được thông tin người dùng.");
                 }
             }
             catch (Exception ex)
             {
+                btnDangNhap.Enabled = true;
                 MessageBox.Show("Đăng nhập thất bại: " + ex.Message);
             }
 

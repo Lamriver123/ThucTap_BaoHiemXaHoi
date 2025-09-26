@@ -1,4 +1,5 @@
 ﻿using Login.Services;
+using Login.Views;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -109,59 +110,99 @@ namespace Login
 
         private void btnDongBH_Click(object sender, EventArgs e)
         {
-            if (AppState.IsLoggedIn)
+            if (EnsureLoggedIn())
             {
+
+                MessageBox.Show("Đóng BH");
             }
             else
             {
+                MessageBox.Show("Lỗi, vui lòng thử lại sau!");
             }
         }
 
         private void btnKeKhai_Click(object sender, EventArgs e)
         {
-            if (AppState.IsLoggedIn)
+            if (EnsureLoggedIn())
             {
+
+                MessageBox.Show("Kê khai");
             }
             else
             {
+                MessageBox.Show("Lỗi, vui lòng thử lại sau!");
             }
         }
 
         private void btnDichVuCong_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Dịch vụ công");
         }
 
         private void btnTraCuu_Click(object sender, EventArgs e)
         {
-            if (AppState.IsLoggedIn)
+            if (EnsureLoggedIn())
             {
+                MessageBox.Show("Tra cứu");
+
             }
             else
             {
+                MessageBox.Show("Lỗi, vui lòng thử lại sau!");
             }
         }
 
         private void btnTaiLieu_Click(object sender, EventArgs e)
         {
-            if (AppState.IsLoggedIn)
+            if (EnsureLoggedIn())
             {
+                MessageBox.Show("Tài liệu");
+
             }
             else
             {
+                MessageBox.Show("Lỗi, vui lòng thử lại sau!");
             }
         }
 
         private void btnDatLich_Click(object sender, EventArgs e)
         {
-            if (AppState.IsLoggedIn)
+            if (EnsureLoggedIn())
             {
+                MessageBox.Show("Đặt lịch");
+
             }
             else
             {
-                
+                MessageBox.Show("Lỗi, vui lòng thử lại sau!");
             }
         }
+
+        private bool EnsureLoggedIn()
+        {
+            if (!AppState.IsLoggedIn)
+            {
+                using (FLogin fLogin = new FLogin())
+                {
+                    if (fLogin.ShowDialog() == DialogResult.OK)
+                    {
+                        // Sau khi login thành công thì cập nhật trạng thái header trên FMain
+                        var fMain = this.MdiParent as FMain ?? Application.OpenForms["FMain"] as FMain;
+                        if (fMain != null)
+                        {
+                            fMain.UpdateLoginUI();
+                        }
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+            }
+            return true; 
+        }
+
 
         private void pTinhHinhXuLy_Paint(object sender, PaintEventArgs e)
         {

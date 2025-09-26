@@ -23,7 +23,6 @@ namespace Login.Views
             {
                 if (fLogin.ShowDialog() == DialogResult.OK)
                 {
-
                     pDangNhap.Hide();
                     pDaDangNhap.Show();
                     btnDangXuat.Text = AppState.FullName;
@@ -54,16 +53,7 @@ namespace Login.Views
 
         private void FMain_Load(object sender, EventArgs e)
         {
-            if (AppState.IsLoggedIn)
-            {
-                pDangNhap.Hide();
-                pDaDangNhap.Show();
-            }
-            else
-            {
-                pDangNhap.Show();
-                pDaDangNhap.Hide();
-            }
+            UpdateLoginUI();
             LoadForm(new FHome());
         }
 
@@ -76,6 +66,22 @@ namespace Login.Views
             frm.Dock = DockStyle.Fill;
             pBody.Controls.Add(frm);
             frm.Show();
+        }
+
+        public void UpdateLoginUI()
+        {
+            if (AppState.IsLoggedIn)
+            {
+                pDangNhap.Hide();
+                pDaDangNhap.Show();
+                btnDangXuat.Text = AppState.FullName;           
+            }
+            else
+            {
+                pDangNhap.Show();
+                pDaDangNhap.Hide();
+                btnDangXuat.SelectedIndex = -1;
+            }
         }
 
     }
