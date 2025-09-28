@@ -21,7 +21,7 @@ namespace Login.Services
             };
         }
 
-        public async Task<List<TraCuuC12Models>> ExtractTableAsync(byte[] pdfData)
+        public async Task<List<TraCuuC12Models>> ExtractTableAsync(byte[] pdfData, int thang, int nam)
         {
             using var content = new MultipartFormDataContent();
             content.Add(new ByteArrayContent(pdfData), "file", "file.pdf");
@@ -56,6 +56,12 @@ namespace Login.Services
                     item.BHTNLD_BNN = row[6];
 
                     item.Cong = row[7];
+
+                    item.Date = new DateTime(nam, thang, 1);
+
+                    item.userName = AppState.UserName;
+
+                    item.Level = i;
 
                     list.Add(item);
                 }

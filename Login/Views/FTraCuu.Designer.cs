@@ -44,7 +44,7 @@
             // 
             // pMenu
             // 
-            pMenu.BackColor = SystemColors.ActiveCaption;
+            pMenu.BackColor = SystemColors.GradientInactiveCaption;
             pMenu.Controls.Add(pTraCuu);
             pMenu.Controls.Add(pTraCuuC12);
             pMenu.Controls.Add(panel1);
@@ -67,7 +67,7 @@
             // 
             // iconButton2
             // 
-            iconButton2.BackColor = SystemColors.ActiveCaption;
+            iconButton2.BackColor = Color.Transparent;
             iconButton2.Dock = DockStyle.Top;
             iconButton2.FlatStyle = FlatStyle.Flat;
             iconButton2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);

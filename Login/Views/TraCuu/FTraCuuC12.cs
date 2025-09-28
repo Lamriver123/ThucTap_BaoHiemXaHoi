@@ -71,19 +71,11 @@ namespace Login.Views.TraCuu
 
                 byte[] pdfData = await service.TraCuuC12Async(thang, nam);
 
-                //// Extract table từ Python service
-                //var dataTableService = new DataTablePdfService();
-                //string jsonResult = await dataTableService.ExtractTableAsync(pdfData);
-
-                //// Hiển thị JSON trả về
-                //MessageBox.Show(jsonResult);
-
-
                 string filePath = Path.Combine(Application.StartupPath, $"C12_{thang}_{nam}_{AppState.Ten}.pdf");
                 File.WriteAllBytes(filePath, pdfData);
 
                 var dataTableService = new DataTablePdfService();
-                var listRaw = await dataTableService.ExtractTableAsync(pdfData);
+                var listRaw = await dataTableService.ExtractTableAsync(pdfData, thang, nam);
                 FTraCuu fTraCuu = this.ParentForm as FTraCuu;
                 if (fTraCuu != null)
                 {
