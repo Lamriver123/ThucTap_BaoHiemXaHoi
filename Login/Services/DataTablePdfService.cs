@@ -17,7 +17,8 @@ namespace Login.Services
         {
             _httpClient = new HttpClient
             {
-                BaseAddress = new Uri("http://localhost:5001")
+                //BaseAddress = new Uri("http://localhost:5001")
+                BaseAddress = new Uri("https://api-doc-pdf-deggg4f3h5gfgjb3.southeastasia-01.azurewebsites.net")
             };
         }
 
