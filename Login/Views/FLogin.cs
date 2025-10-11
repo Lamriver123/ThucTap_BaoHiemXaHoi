@@ -20,7 +20,7 @@ namespace Login
             _captchaService = new CaptchaService();
             _authService = new AuthService();
         }
-        
+
         private async Task LoadCaptchaAsync()
         {
             try
@@ -47,6 +47,7 @@ namespace Login
         {
             cbCaNhan.Checked = true;
             cbDoanhNghiep.Checked = false;
+
             await LoadCaptchaAsync();
         }
 
@@ -72,7 +73,7 @@ namespace Login
 
         private async void btnDangNhap_Click(object sender, EventArgs e)
         {
-            
+
             var username = txtUsername.Text.Trim();
             var password = txtPassword.Text.Trim();
             var text = txtCaptcha.Text.Trim();
@@ -90,7 +91,7 @@ namespace Login
                 var user = await _authService.LoginAsync(username, password, code, text, loaiDoiTuong);
 
                 MessageBox.Show("Đăng nhập thành công");
-                
+
                 this.DialogResult = DialogResult.OK;
                 btnDangNhap.Enabled = true;
                 this.Close();
@@ -103,5 +104,7 @@ namespace Login
 
             await LoadCaptchaAsync();
         }
+
+        
     }
 }

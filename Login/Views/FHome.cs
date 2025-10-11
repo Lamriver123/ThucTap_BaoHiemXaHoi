@@ -43,7 +43,7 @@ namespace Login
             }
         }
 
-        
+
 
 
 
@@ -106,7 +106,7 @@ namespace Login
             pThongKeHoSo.BackgroundImageLayout = ImageLayout.Center;
         }
 
-        
+
 
         private void btnDongBH_Click(object sender, EventArgs e)
         {
@@ -205,7 +205,7 @@ namespace Login
                     }
                 }
             }
-            return true; 
+            return true;
         }
 
 
@@ -215,6 +215,11 @@ namespace Login
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pThongKeHoSo111_Paint(object sender, PaintEventArgs e)
         {
 
         }

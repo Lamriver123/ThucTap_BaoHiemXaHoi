@@ -17,7 +17,8 @@ namespace Login.Views.TraCuu
         {
             InitializeComponent();
         }
-        
+
+
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -68,26 +69,20 @@ namespace Login.Views.TraCuu
             try
             {
                 var service = new TraCuuService();
-
                 byte[] pdfData = await service.TraCuuC12Async(thang, nam);
-
-                string filePath = Path.Combine(Application.StartupPath, $"C12_{thang}_{nam}_{AppState.Ten}.pdf");
-                File.WriteAllBytes(filePath, pdfData);
-
-                var dataTableService = new DataTablePdfService();
-                var listRaw = await dataTableService.ExtractTableAsync(pdfData, thang, nam);
+                var listRaw =  DocPdfService.ExtractToExcel(pdfData, thang, nam);
                 FTraCuu fTraCuu = this.ParentForm as FTraCuu;
                 if (fTraCuu != null)
                 {
-                    fTraCuu.openChildForm(new FShowTraCuuC12(listRaw));
-                }
+                    fTraCuu.openChildForm(new FShowTraCuuC12(listRaw, pdfData));
 
-                FViewPdf fViewPdf = new FViewPdf(filePath);
-                fViewPdf.Show();
+                }
+                string filePath = Path.Combine(Application.StartupPath, $"C12_{AppState.Ten}.pdf");
+                try { File.Delete(filePath); } catch { }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi tra cứu: " + ex.Message);
+                MessageBox.Show($"Chưa có dữ liệu cho tháng {thang} - {nam}");
             }
         }
 

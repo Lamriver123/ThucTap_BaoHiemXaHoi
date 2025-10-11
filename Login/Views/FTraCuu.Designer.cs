@@ -37,6 +37,7 @@
             panel2 = new Panel();
             panel1 = new Panel();
             pBody = new Panel();
+            sqlCommand1 = new Microsoft.Data.SqlClient.SqlCommand();
             pMenu.SuspendLayout();
             pTraCuu.SuspendLayout();
             pTraCuuC12.SuspendLayout();
@@ -135,16 +136,23 @@
             // 
             // pBody
             // 
+            pBody.AutoSize = true;
             pBody.Dock = DockStyle.Fill;
             pBody.Location = new Point(200, 0);
             pBody.Name = "pBody";
             pBody.Size = new Size(1714, 936);
             pBody.TabIndex = 1;
             // 
+            // sqlCommand1
+            // 
+            sqlCommand1.CommandTimeout = 30;
+            sqlCommand1.EnableOptimizedParameterBinding = false;
+            // 
             // FTraCuu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoSize = true;
             ClientSize = new Size(1914, 936);
             Controls.Add(pBody);
             Controls.Add(pMenu);
@@ -157,6 +165,7 @@
             pTraCuu.ResumeLayout(false);
             pTraCuuC12.ResumeLayout(false);
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -170,5 +179,6 @@
         private FontAwesome.Sharp.IconButton iconButton2;
         private Panel panel4;
         private FontAwesome.Sharp.IconButton btnTraCuuC12;
+        private Microsoft.Data.SqlClient.SqlCommand sqlCommand1;
     }
 }

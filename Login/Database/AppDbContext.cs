@@ -17,8 +17,8 @@ namespace Login.Database
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=DESKTOP-8RK3BU5;Database=thuc_tap;Trusted_Connection=True;TrustServerCertificate=True;");
-                //optionsBuilder.UseSqlServer("Server=tcp:thuctap.database.windows.net,1433;Initial Catalog=thuctap;Persist Security Info=False;User ID=sqladmin;Password=Lamngoc@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+                //optionsBuilder.UseSqlServer("Server=DESKTOP-8RK3BU5;Database=thuc_tap;Trusted_Connection=True;TrustServerCertificate=True;");
+                optionsBuilder.UseSqlServer("Server=tcp:thuctap.database.windows.net,1433;Initial Catalog=thuctap;Persist Security Info=False;User ID=sqladmin;Password=Lamngoc@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
             }
         }
 

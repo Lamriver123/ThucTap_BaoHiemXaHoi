@@ -49,7 +49,7 @@
             pHeader.Dock = DockStyle.Top;
             pHeader.Location = new Point(0, 0);
             pHeader.Name = "pHeader";
-            pHeader.Size = new Size(1914, 65);
+            pHeader.Size = new Size(1904, 65);
             pHeader.TabIndex = 1;
             // 
             // btnHome
@@ -69,7 +69,7 @@
             // 
             pDaDangNhap.Controls.Add(btnDangXuat);
             pDaDangNhap.Dock = DockStyle.Right;
-            pDaDangNhap.Location = new Point(1526, 0);
+            pDaDangNhap.Location = new Point(1516, 0);
             pDaDangNhap.Name = "pDaDangNhap";
             pDaDangNhap.Size = new Size(234, 65);
             pDaDangNhap.TabIndex = 1;
@@ -90,7 +90,7 @@
             // 
             pDangNhap.Controls.Add(btnDangNhap);
             pDangNhap.Dock = DockStyle.Right;
-            pDangNhap.Location = new Point(1760, 0);
+            pDangNhap.Location = new Point(1750, 0);
             pDangNhap.Name = "pDangNhap";
             pDangNhap.Size = new Size(154, 65);
             pDangNhap.TabIndex = 0;
@@ -117,14 +117,14 @@
             pBody.Dock = DockStyle.Fill;
             pBody.Location = new Point(0, 65);
             pBody.Name = "pBody";
-            pBody.Size = new Size(1914, 936);
+            pBody.Size = new Size(1904, 976);
             pBody.TabIndex = 2;
             // 
             // FMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1914, 1001);
+            ClientSize = new Size(1904, 1041);
             Controls.Add(pBody);
             Controls.Add(pHeader);
             Name = "FMain";

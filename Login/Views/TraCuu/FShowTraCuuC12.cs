@@ -1,4 +1,6 @@
-﻿using Login.Database;
+﻿using DocumentFormat.OpenXml.Office2016.Drawing.ChartDrawing;
+using DocumentFormat.OpenXml.Wordprocessing;
+using Login.Database;
 using Login.Models;
 using System;
 using System.Collections.Generic;
@@ -9,21 +11,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using UglyToad.PdfPig.Graphics;
 
 namespace Login.Views.TraCuu
 {
     public partial class FShowTraCuuC12 : Form
     {
         List<TraCuuC12Models> list = new List<TraCuuC12Models>();
-        public FShowTraCuuC12(List<TraCuuC12Models> list)
+        private byte[] dataPdf1;
+        private string filePath;
+
+        public FShowTraCuuC12(List<TraCuuC12Models> list, byte[] dataPdf)
         {
             InitializeComponent();
             this.list = list;
-            
+            dataPdf1 = dataPdf;
+
         }
 
         private void LoadData(List<TraCuuC12Models> list)
         {
+
             if (list.Count == 0)
             {
                 MessageBox.Show("Không có dữ liệu bảng trong PDF");
@@ -38,14 +46,14 @@ namespace Login.Views.TraCuu
                 dvThongTin.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
                 dvThongTin.MultiSelect = false;
                 dvThongTin.RowHeadersVisible = false;
-                dvThongTin.DefaultCellStyle.Font = new Font("Segoe UI", 10);
-                dvThongTin.ColumnHeadersDefaultCellStyle.Font = new Font("Segoe UI", 10, FontStyle.Bold);
+                dvThongTin.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 10);
+                dvThongTin.ColumnHeadersDefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 10, FontStyle.Bold);
                 dvThongTin.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
                 dvThongTin.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
                 dvThongTin.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-                dvThongTin.AlternatingRowsDefaultCellStyle.BackColor = Color.AliceBlue;
-                dvThongTin.GridColor = Color.LightGray;
-                dvThongTin.BackgroundColor = Color.White;
+                dvThongTin.AlternatingRowsDefaultCellStyle.BackColor = System.Drawing.Color.AliceBlue;
+                dvThongTin.GridColor = System.Drawing.Color.LightGray;
+                dvThongTin.BackgroundColor = System.Drawing.Color.White;
 
                 // Danh sách cột
                 var columns = new[]
@@ -90,7 +98,7 @@ namespace Login.Views.TraCuu
                         {
                             // Tô đậm toàn hàng nếu STT không phải số
                             var row = dvThongTin.Rows[e.RowIndex];
-                            row.DefaultCellStyle.Font = new Font("Segoe UI", 10, FontStyle.Bold);
+                            row.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI", 10, FontStyle.Bold);
                         }
                     }
                 };
@@ -104,6 +112,11 @@ namespace Login.Views.TraCuu
         private void FShowTraCuuC12_Load(object sender, EventArgs e)
         {
             LoadData(list);
+            string folder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "TraCuu");
+            Directory.CreateDirectory(folder);
+            filePath = Path.Combine(folder, $"C12_{AppState.Ten}.pdf");
+            File.WriteAllBytes(filePath, dataPdf1);
+
         }
 
         private void btnLuu_Click(object sender, EventArgs e)
@@ -122,7 +135,7 @@ namespace Login.Views.TraCuu
 
                 if (isExist)
                 {
-                    DialogResult result = MessageBox.Show("Dữ liệu tháng này đã tồn tại. Bạn có muốn ghi đè không?","Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                    DialogResult result = MessageBox.Show("Dữ liệu tháng này đã tồn tại. Bạn có muốn ghi đè không?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
                     if (result == DialogResult.Yes)
                     {
@@ -133,6 +146,7 @@ namespace Login.Views.TraCuu
                         {
                             item.Id = 0;
                         }
+                        MessageBox.Show("Lưu dữ liệu thành công!", "Thông báo");
                     }
                 }
                 else
@@ -152,5 +166,19 @@ namespace Login.Views.TraCuu
                 }
             }
         }
+
+        private void btnViewPDF_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                FViewPdf fViewPdf = new FViewPdf(dataPdf1);
+                fViewPdf.ShowDialog();
+            }
+            catch
+            {
+            }
+        }
+
+        
     }
 }

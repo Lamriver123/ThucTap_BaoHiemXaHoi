@@ -1,11 +1,22 @@
-﻿using Login.Models;
+﻿using DocumentFormat.OpenXml.Drawing;
+using GrapeCity.DataVisualization.TypeScript;
+using GrapeCity.Documents.Pdf;
+using Login.Models;
 using System;
+
 using System.Collections.Generic;
+
 using System.Linq;
+
 using System.Net.Http.Json;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
+using UglyToad.PdfPig;
+using UglyToad.PdfPig.Content;
+using UglyToad.PdfPig.Graphics.Operations.PathConstruction;
+using GrapeCity.Documents.Excel;
+
 
 namespace Login.Services
 {
@@ -36,40 +47,25 @@ namespace Login.Services
 
             if (result != null && result.Count > 0)
             {
-                // Nếu dòng đầu tiên là header thì bỏ qua
                 for (int i = 1; i < result.Count; i++)
                 {
                     var row = result[i];
                     TraCuuC12Models item = new TraCuuC12Models();
-
                     item.STT = row[0];
-
                     item.NoiDung = row[1];
-                    
                     item.BHXH_OD_TS = row[2];
-
                     item.BHXH_HTTT = row[3];
-
                     item.BHYT = row[4];
-
                     item.BHTN = row[5];
-
                     item.BHTNLD_BNN = row[6];
-
                     item.Cong = row[7];
-
                     item.Date = new DateTime(nam, thang, 1);
-
                     item.userName = AppState.UserName;
-
                     item.Level = i;
-
                     list.Add(item);
                 }
             }
-
             return list;
         }
-
     }
 }
